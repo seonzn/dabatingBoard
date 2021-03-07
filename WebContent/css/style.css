@@ -1,0 +1,311 @@
+div.myInfo{
+	background-color: white;
+	width: 100%;
+	height: 250px;
+}
+
+div.my{
+	margin: 20px 20px;
+	background-color: white;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+div.nanoom{
+	background-color: white;
+	width: 100%;
+	height: 480px;
+}
+
+div.myNa{
+	margin: 20px 20px;
+	background-color: white;
+	float: left;
+	width: 550px;
+	
+}
+div{
+	margin: 0 auto;
+	width: 1300px;
+	font-size: 13pt;
+}
+
+
+.naStatBtn{
+	width: 80px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ff8000;
+	font-weight: bold;
+	color: white;
+}
+.nanoomdiv{
+	width:290px;
+	height:400px;
+	background-color: white;
+	border: 2px solid #ff8000;
+	border-radius: 5px;
+	float:left;
+	margin:15px;
+}
+
+p{
+	margin: 2px 0px 0px 2px;
+}
+
+
+.login{
+  background:#ff8000;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  width:200px;
+  font-size:20pt;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.login:hover{
+  background:#fff;
+  color:#ff8000;
+}
+.login:before,.login:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ff8000;
+  transition:400ms ease all;
+}
+.login:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.login:hover:before,.login:hover:after{
+  width:100%;
+  transition:800ms ease all;
+} 
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.btn1 {
+  background:#ffffff;
+  color:#ff8000;
+  border:none;
+  position:relative;
+  display: inline-block;
+  font-size:15pt;
+  font-weight: bold;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.btn1:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ffb000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.btn1:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+ul{list-style:none;}
+
+.tabmenu{ 
+  position:relative; 
+}
+.tabmenu ul li{
+  display:  inline-block;
+  width:16%; 
+  float:left;  
+  text-align:center; 
+  background :#f9f9f9;
+  line-height:40px;
+}
+.tabmenu label{
+  display:block;
+  width:100%; 
+  height:40px;
+  line-height:40px;
+}
+.tabmenu input{display:none;}
+.tabCon{
+  display:none; 
+  text-align:left; 
+  padding: 20px;
+  position:absolute; 
+  left:0; top:40px; 
+  box-sizing: border-box; 
+  border : 5px solid #f9f9f9;
+}
+.tabmenu input:checked ~ label{
+  background:#ccc;
+}
+.tabmenu input:checked ~ .tabCon{
+  display:block;
+}
+
+
+table.type09 {
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5;
+
+}
+table.type09 thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #f3f6f7;
+}
+table.type09 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.btn2{
+  width: 50px;
+  height:30px;
+  border:2px solid #34495e;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 10px 0;
+}
+.btn2 a{
+  font-family:arial;
+  font-size:12px;
+  font-weight: bolder;
+  color:#34495e;
+  text-decoration:none;
+  line-height:0px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.eff-1{
+  width:50px;
+  height:30px;
+  top:0px;
+  right:-140px;
+  background:#34495e;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.btn2:hover .eff-1{
+  right:0;
+}
+.btn2:hover a{
+  color:#fff;
+}
+
+
+table.type10 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+
+}
+table.type10 thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #369;
+  border-bottom: 3px solid #ffb000;
+}
+table.type10 tbody th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #ffeee6;
+}
+table.type10 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+
+div.mainTab{
+	margin: 5px;
+	width: 300px;
+	height: 50px;
+	background: white;
+	float: left;
+	text-align: center;
+}
+.btn3{
+  width: 300px;
+  height:50px;
+  border:1px solid #ff8040;
+  border-radius: 5px;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 0 0;
+}
+.btn3 a{
+  font-size:18px;
+  font-weight: bolder;
+  color:#000000;
+  text-decoration:none;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.eff-2{
+  width:300px;
+  height:50px;
+  top:0px;
+  right:-300px;
+  background:#ff8040;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.btn3:hover .eff-2{
+  right:0;
+}
+.btn3:hover a{
+  color:#fff;
+}
